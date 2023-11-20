@@ -32,7 +32,9 @@ h3{
 #intro {
     font-weight: 500;
 }
-
+li {
+    list-style: square;
+}
 button {
     font-size: 1em;
     color: #FFF;
