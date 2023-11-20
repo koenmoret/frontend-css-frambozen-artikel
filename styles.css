@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/*KLEUREN*/
+:root {
+    --tekstkleur: #535865;
+    --contrastkleur: #865B9A;
+    --achtergrondkleur: #DFD9E2;
+}
 body {
-    background-color: green;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 300;
+    color: var(--tekstkleur);
+    background-color: var(--achtergrondkleur);
+}
+h1{
+    color: var(--contrastkleur);
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+}
+h2 {
+    color: var(--contrastkleur);
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+h3{
+    font-weight: 500;
+    color: var(--contrastkleur);
+}
+#intro {
+    font-weight: 500;
+}
+
+button {
+    font-size: 1em;
+    color: #FFF;
+    background-color: var(--contrastkleur);
+}
+button:hover {
+    cursor: pointer;
+    background-color: blueviolet;
 }
